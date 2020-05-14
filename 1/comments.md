@@ -35,7 +35,7 @@ Our largest number in this series will be 999, which is 1000 divided by 3 rounde
 
 Because all of these numbers are multiples of 3, we can pull out the three to the front of each number.   
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;=&space;3(1)&space;&plus;&space;3(2)&space;&plus;&space;3(3)&space;&plus;&space;...&space;&plus;&space;3*333" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\large&space;=&space;3(1)&space;&plus;&space;3(2)&space;&plus;&space;3(3)&space;&plus;&space;...&space;&plus;&space;3*333" title="\large = 3(1) + 3(2) + 3(3) + ... + 3*333" /></a>   
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;=3(1)&plus;3(2)&plus;3(3)&plus;...&plus;3(333)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\large&space;=3(1)&plus;3(2)&plus;3(3)&plus;...&plus;3(333)" title="\large =3(1)+3(2)+3(3)+...+3(333)" /></a>   
 
 Using the distributive property, we can pull out the three even further.   
 
