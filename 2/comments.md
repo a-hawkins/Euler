@@ -9,7 +9,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 Source: https://projecteuler.net/problem=2
 
-## Solution 1
+## Solution 1:
 
 Once again, python allows us to use big integers without worrying about having to handle integer overflow, so it remains my language of choice for this problem.
 
