@@ -8,12 +8,32 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 Source: https://projecteuler.net/problem=1   
 
 ## Solution 1:
+```
+sum = 0
+for i in range (1000):
+    if(i % 3 == 0 or i % 5 == 0):
+        sum = sum + i
+print(sum)
+```
 A more intuitive yet less effecient approach. It simply runs through each of the natural numbers below 1000, 
 checks if it is a multiple of 3 or 5, and if so, adds it to a running total.   
 
 I chose python because it handles large numbers without hassle and would let me get my ideas out quickly.   
 
 ## Solution 2:
+```
+target = 1000
+
+def divisibleSum(multiple, target):
+    sum = 0
+    curr = multiple
+    while (curr < target):
+        sum = sum + curr
+        curr = curr + multiple
+    return sum
+
+print(divisibleSum(3, target) + divisibleSum(5, target) - divisibleSum(15, target))
+```
 Solution 1 runs quickly enough for the size of the data set that needs processing in this problem, 
 but it does a lot of work it doesn't have to. Rather than checking each number to see if it is a multiple of 3 or 5, 
 we can just skip ahead directly to each multiple, find subtotals for the sums of the multiples of 3 less than 1000 and multiples of 5 
@@ -24,6 +44,15 @@ of 15 less than 1000 and subtract that sum from our total sum, elimintating all 
 Rather than retype almost the same code three-times over, it's better at this point to make a reusable function 
 
 ## Solution 3:
+```
+target = 999
+
+def divisibleSum(multiple, target):
+	n = int(target/multiple)
+	return int(multiple * (n*(n+1))/2)
+
+print(divisibleSum(3, target) + divisibleSum(5, target) - divisibleSum(15, target))
+```
 Here we take the ideas of Solution 2 and refine it further using a well-known summation formula to elimiate the need for looping.
 The sum of the multiples of a number m less than a target t can be found by calculating the consecutive sum of the interval [1, floor(t/m)] 
 and multiplying that sum by m.   

@@ -10,6 +10,20 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 Source: https://projecteuler.net/problem=2
 
 ## Solution 1:
+```
+sum = 0
+prev = 0
+curr = 1
+
+while (curr <= 4000000):
+    if(curr % 2 == 0):
+        sum = sum + curr
+    temp = curr
+    curr = curr + prev
+    prev = temp
+    
+print(sum)
+```
 
 Once again, python allows us to use big integers without worrying about having to handle integer overflow, so it remains my language of choice for this problem.
 
