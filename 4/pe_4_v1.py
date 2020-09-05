@@ -1,3 +1,6 @@
+# PE 4, v1
+# 9-4-2020
+
 def isPalindrome(n):
     n = str(n)
     if(len(n) == 1 or (len(n)==2 and n[0]==n[1])):
