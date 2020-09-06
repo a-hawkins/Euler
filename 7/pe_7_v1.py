@@ -6,9 +6,9 @@ def sieve(n):
         return [False]
     primes = [True]*(n+1)
     primes[0] = primes[1] = False
-    for i in range(2, n):
+    for i in range(2, len(primes)):
         if(primes[i]):
-            for j in range(i**2, n, i):
+            for j in range(i**2, len(primes), i):
                 primes[j] = False
     return primes
 
