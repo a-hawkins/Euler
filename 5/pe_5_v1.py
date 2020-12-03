@@ -2,6 +2,7 @@
 # 9-5-2020
 
 def smallestMultiple(n):
+# Returns the smallest multiple of all natural numbers <=n
     factorList = [0]*(n+1)
     for k in range(2,n+1):
         i = 2

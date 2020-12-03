@@ -2,6 +2,7 @@
 # 9-6-2020
 
 def stringProduct(s):
+# Takes a string of numbers s and returns a cummulative product of each digit
     product = 1
     for i in s:
         product = product * int(i)

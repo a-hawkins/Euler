@@ -2,6 +2,7 @@
 # 9-4-2020
 
 def largestPrime(n):
+# Returns the larges prime factor of n
     largest = 1
     i = 2
     if(n%i==0):

@@ -7,9 +7,12 @@ def generateTriple(m, n):
 
 
 def isCoprime(a, b):
+# Returns True if a and b are coprime, and False otherwise.
+# Two values are considered coprime if they share no common prime factors
     return (gcd(a,b) == 1)
 
 def gcd(a, b):
+# Returns the greatest common factor of a and b using Euclid's algorithm
     if a < b:
         temp = a
         a = b
@@ -24,6 +27,7 @@ def gcd(a, b):
     return b
 
 def specialTriple(n):
+# Returns a pythagorean tripple [a, b, c] such that a + b + c = n
     i = 0
     primativeTriple = triple = [0, 0, 0]
     while (sum(triple) != n):

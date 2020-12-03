@@ -2,6 +2,7 @@
 # 9-6-2020
 
 def sieve(n):
+# Returns a boolean list of size n+1 representing which numbers <=n are prime
     if(n < 2):
         return [False]
     primes = [True]*(n+1)
@@ -13,6 +14,7 @@ def sieve(n):
     return primes
 
 def nthPrime(n):
+# Searches for and returns the nth value in the sequence of primes
     totalPrimes = 0
     threshold = n * 2
     primes = [False]

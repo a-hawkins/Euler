@@ -2,6 +2,7 @@
 # 9-4-2020
 
 def isPalindrome(n):
+# Recursively checks if a string n is a palindrome and returns a boolean
     n = str(n)
     if(len(n) == 1 or (len(n)==2 and n[0]==n[1])):
         return True
