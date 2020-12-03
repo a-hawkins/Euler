@@ -13,8 +13,9 @@ def isPalindrome(n):
 n = m = 999
 biggestPal = 1
 prod = n*m
+count = 0
 while(n > 0 and m > 0 and prod > 10000):
-    #print(n, "+", m, "=", prod)
+    #print(n, "*", m, "=", prod)
     if(prod > biggestPal and isPalindrome(prod)):
         biggestPal = prod
     elif (prod > biggestPal):
@@ -23,3 +24,4 @@ while(n > 0 and m > 0 and prod > 10000):
         m = n = n-1
     prod = n * m
 print(biggestPal)
+
