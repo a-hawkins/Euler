@@ -14,8 +14,8 @@ n = m = 999
 biggestPal = 1
 prod = n*m
 
-while(n > 0 and m > 0 and (n * n) >biggestPal):
-    count = count + 1
+while((n * n) > biggestPal):
+    #print(n, "*", m, "=", prod)
     if(prod > biggestPal and isPalindrome(prod)):
         biggestPal = prod
     elif (prod > biggestPal):
