@@ -1,4 +1,4 @@
-List of all cases of m and n for pe_4_v1
+List of all cases of m and n for pe_4_v1 (7056 Total)
 ========================================
 999 * 999 = 998001
 999 * 998 = 997002
