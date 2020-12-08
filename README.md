@@ -12,7 +12,7 @@ Check out the `comments.md` file in each problem folder for more details on my s
 | 1  | Multiples of 3 and 5               |      Solved     |     3    |      Complete      |
 | 2  | Even Fibonacci numbers             |      Solved     |     1    |      Complete      |
 | 3  | Largest prime factor               |      Solved     |     1    |      Complete      |
-| 4  | Largest palindrome product         |      Solved     |     2    |                    |
+| 4  | Largest palindrome product         |      Solved     |     2    |      Complete      |
 | 5  | Smallest multiple                  |      Solved     |     1    |                    |
 | 6  | Sum square difference              |      Solved     |     1    |                    |
 | 7  | 10001st prime                      |      Solved     |     1    |                    |
