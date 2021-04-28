@@ -39,7 +39,7 @@ but it does a lot of work it doesn't have to. Rather than checking each number t
 we can just skip ahead directly to each multiple, find subtotals for the sums of the multiples of 3 less than 1000 and multiples of 5 
 less than 1000 seperately, and add those together. Some numbers, however, are multiples of both 3 and 5, so they would be double 
 counted in this method, causing the final total to be too high. To counteract this issue, we must also find the sum of all multiples 
-of 15 less than 1000 and subtract that sum from our total sum, elimintating all overlap.
+of 15, the product of 3 and 5, less than 1000 and subtract that sum from our total sum, elimintating all overlap.
 
 Rather than retype almost the same code three-times over, it's better at this point to make a reusable function 
 
